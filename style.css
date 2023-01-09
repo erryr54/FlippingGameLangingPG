@@ -1,0 +1,132 @@
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    display: block;
+    border: solid;
+    border-bottom-style: double;
+    border-left-style: double;
+    border-right-style: double;
+    color: #2dceac;
+    font-size: 48px;
+    line-height: 78px;
+    text-align: center;
+    margin: 5px auto;
+    padding: 5px 45px;
+}
+
+h2 {
+    color: #d3d3ac;
+    line-height: 40px;
+    text-align: center;
+}
+
+h3 {
+    color: #2dceac;
+    font-size: 24px;
+    line-height: 33px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    background: #385983;
+    color: whitesmoke;
+    font-size: 20px;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    transition: all 200ms ease-in-out;
+}
+
+button:hover {
+    opacity: 0, 9;
+    background-color: #217cde;
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 95%;
+    border-radius: 15px;
+}
+
+p {
+    color: #2dceac;
+    text-align: center;
+    line-height: 1.5;
+    margin: 60px auto;
+    text-shadow: #38598b;
+}
+
+ul {
+    border: 0 solid 1px;
+    border-radius: 10px;
+    color: #2dceac;
+    text-align: center;
+    list-style-type: none;
+    padding: 20px;
+    margin: 60px auto;
+    margin-bottom: 20px;
+}
+
+li {
+    line-height: 22px;
+}
+
+strong {
+    color: #2dceac;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.Author-Style {
+    font-weight: bold;
+    color: #d3d3ac;
+}
+
+.container {
+    background: radial-gradient(
+        circle at 10% 20%,
+        rgb(0, 93, 133) 0%,
+        rgb(0, 181, 149) 90%
+    );
+}
+
+.GarySpeech {
+    color: #2dceac;
+    text-decoration: none;
+}
+
+.GarySpeech:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.DefineRA-Title {
+    color: #d3deac;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.GaryVeeBio {
+    font-weight: lighter;
+    color: #d3d3ac;
+    margin-top: 10px;
+}
+
+.Pros-Cons {
+    color: #d3d3ac;
+    margin-top: 10px;
+}
